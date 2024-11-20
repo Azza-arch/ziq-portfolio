@@ -7,7 +7,7 @@
             <div class="mt-10 mb-14">
                 <div class="lg:flex grid space-x-6 lg:pb-11 pb-5">
                     <div class="flex-shrink-0">
-                        <img src="/assets/img/logo-large.jpeg" alt="{{ $page->siteName }} large logo"
+                        <img src="/sources/assets/img/logo-large.jpeg" alt="{{ $page->siteName }} large logo"
                             class="mx-auto rounded-md w-64 h-64">
                     </div>
                     <div class="grid lg:text-left text-center">
@@ -61,7 +61,7 @@
             <div id="project" class="md:flex lg:mt-10 -mx-2">
                 <!-- MySPM Project -->
                 <div class="mb-8 mx-3 px-2 md:w-1/3">
-                    <img src="/assets/img/epens.png" class="rounded-t-lg object-cover w-full" alt="MySPM">
+                    <img src="/sources/assets/img/epens.png" class="rounded-t-lg object-cover w-full" alt="MySPM">
                     <div class="p-4 shadow-md">
                         <h4 class="text-xl font-semibold">MySPM</h4>
                         <p class="text-sm text-gray-600">A management website for a company</p>
