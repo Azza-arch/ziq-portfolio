@@ -1,95 +1,82 @@
-# Jigsaw Docs Starter Template
-
-This is a starter template for creating a beautiful, customizable documentation site for your project with minimal effort. You’ll only have to change a few settings and you’re ready to go.
-
-[View a preview of the docs template.](http://jigsaw-docs-template.tighten.co/)
-
-## Installation
-
-After installing Jigsaw, run the following command from your project directory:
-
-```bash
-./vendor/bin/jigsaw init docs
-```
-
-This starter template includes samples of common page types, and comes pre-configured with:
-
-- A fully responsive navigation bar
-- A sidebar navigation menu
-- [Tailwind CSS](https://tailwindcss.com/), a utility CSS framework that allows you to customize your design without touching a line of CSS
-- [Purgecss](https://www.purgecss.com/) to remove unused selectors from your CSS, resulting in smaller CSS files
-- Syntax highlighting using [highlight.js](https://highlightjs.org/)
-- A script that automatically generates a `sitemap.xml` file
-- A search bar powered by [Algolia DocSearch](https://community.algolia.com/docsearch/), and instructions on how to get started with their free indexing service
-- A custom 404 page
+Here’s a professional and visually appealing README for your online portfolio:
 
 ---
 
-![Docs starter template screenshot](https://user-images.githubusercontent.com/357312/50345478-40170c00-04fd-11e9-856c-ad46d1ac45cb.png)
+# 🌐 Syed Muhammad Haziq Portfolio
+
+Welcome to my personal portfolio website! 🎉 Explore my journey, skills, projects, and experiences in full-stack web development. Built with passion and precision, this portfolio reflects my commitment to innovation and creating meaningful digital experiences.
 
 ---
 
-### Configuring your new site
+## 🚀 **About Me**
 
-As with all Jigsaw sites, configuration settings can be found in `config.php`; you can update the variables in that file with settings specific to your project. You can also add new configuration variables there to use across your site; take a look at the [Jigsaw documentation](http://jigsaw.tighten.co/docs/site-variables/) to learn more.
+Hi there! 👋 I am **Syed Muhammad Haziq**, a **Full-Stack Web Developer** with expertise in **Laravel**, **Node.js**, **Tailwind CSS**, and **UI/UX design**. I specialize in building responsive, community-driven web applications and innovative solutions for real-world problems. My portfolio showcases the skills and projects I’ve developed throughout my career.
 
-```php
-// config.php
-return [
-    'baseUrl' => 'https://my-awesome-jigsaw-site.com/',
-    'production' => false,
-    'siteName' => 'My Site',
-    'siteDescription' => 'Give your documentation a boost with Jigsaw.',
-    'docsearchApiKey' => '',
-    'docsearchIndexName' => '',
-    'navigation' => require_once('navigation.php'),
-];
-```
-
-> Tip: This configuration file is also where you’ll define any "collections" (for example, a collection of the contributors to your site, or a collection of blog posts). Check out the official [Jigsaw documentation](https://jigsaw.tighten.co/docs/collections/) to learn more.
+🔗 **[Visit My Portfolio](https://azza-arch.github.io/ziq-portfolio/)**
 
 ---
 
-### Adding Content
+## 🎯 **Features**
 
-You can write your content using a [variety of file types](http://jigsaw.tighten.co/docs/content-other-file-types/). By default, this starter template expects your content to be located in the `source/docs` folder. If you change this, be sure to update the URL references in `navigation.php`.
-
-The first section of each content page contains a YAML header that specifies how it should be rendered. The `title` attribute is used to dynamically generate HTML `title` and OpenGraph tags for each page. The `extends` attribute defines which parent Blade layout this content file will render with (e.g. `_layouts.documentation` will render with `source/_layouts/documentation.blade.php`), and the `section` attribute defines the Blade "section" that expects this content to be placed into it.
-
-```yaml
----
-title: Navigation
-description: Building a navigation menu for your site
-extends: _layouts.documentation
-section: content
----
-```
-
-[Read more about Jigsaw layouts.](https://jigsaw.tighten.co/docs/content-blade/)
+- 📜 **Detailed Overview**: A snapshot of my skills, certifications, and educational background.
+- 🌟 **Highlighted Projects**: Showcasing innovative applications like **Lapacee**, a local social network, and **Yeet That Capybara**, a fun hackathon game.
+- 🛠️ **Skillset**: Clear presentation of technical expertise and tools.
+- ✉️ **Contact Section**: Easily reach out to collaborate or connect.
 
 ---
 
-### Adding Assets
+## 📂 **Key Sections**
 
-Any assets that need to be compiled (such as JavaScript, Less, or Sass files) can be added to the `source/_assets/` directory, and Laravel Mix will process them when running `npm run dev` or `npm run prod`. The processed assets will be stored in `/source/assets/build/` (note there is no underscore on this second `assets` directory).
+### **Home**
+An engaging introduction to my journey and vision as a web developer.
 
-Then, when Jigsaw builds your site, the entire `/source/assets/` directory containing your built files (and any other directories containing static assets, such as images or fonts, that you choose to store there) will be copied to the destination build folders (`build_local`, on your local machine).
+### **Skills**
+A breakdown of my technical proficiencies, including:
+- Languages: HTML5, PHP, JavaScript
+- Frameworks: Laravel, Node.js, Tailwind CSS, Livewire
+- Tools: Figma, Inkscape, Git, MySQL
 
-Files that don't require processing (such as images and fonts) can be added directly to `/source/assets/`.
+### **Projects**
+Explore some of my best work:
+1. **Lapacee** – A local social network connecting users with food places and communities.
+2. **Enhanced Food Ordering System** – A personalized meal recommendation system using the Naive Bayes algorithm.
+3. **Yeet That Capybara** – A web-based game built during the Brainrot Hackathon.
 
-[Read more about compiling assets in Jigsaw using Laravel Mix.](http://jigsaw.tighten.co/docs/compiling-assets/)
+### **Contact**
+Let’s connect! My portfolio includes direct links to my **LinkedIn** and **Email** for collaborations.
 
 ---
 
-## Building Your Site
+## 🛠️ **Technologies Used**
 
-Now that you’ve edited your configuration variables and know how to customize your styles and content, let’s build the site.
+The portfolio is crafted using:
+- **HTML5** and **CSS3** for responsive design.
+- **Tailwind CSS** for modern, clean UI/UX.
+- **JavaScript** for interactivity and dynamic features.
+- Hosted on **GitHub Pages** for accessibility.
 
-```bash
-# build static files with Jigsaw
-./vendor/bin/jigsaw build
+---
 
-# compile assets with Laravel Mix
-# options: dev, prod
-npm run dev
-```
+## 📬 **Get in Touch**
+
+I’m always open to exciting opportunities and collaborations! Feel free to reach out:
+
+- **Email**: [syhaziqdev@gmail.com](mailto:syhaziqdev@gmail.com)
+- **LinkedIn**: [linkedin.com/in/syhaziqdev](https://www.linkedin.com/in/syhaziqdev)
+
+---
+
+## ⭐ **Contributions**
+
+If you’d like to suggest improvements or contribute to my portfolio project, feel free to fork the repository and submit a pull request. Every suggestion is valuable! 💡
+
+---
+
+## 📜 **License**
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+---
+
+Thank you for visiting my portfolio! 🙏 I look forward to connecting with you. 😊
+
