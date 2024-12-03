@@ -1,7 +1,3 @@
-Here’s a professional and visually appealing README for your online portfolio:
-
----
-
 # 🌐 Syed Muhammad Haziq Portfolio
 
 Welcome to my personal portfolio website! 🎉 Explore my journey, skills, projects, and experiences in full-stack web development. Built with passion and precision, this portfolio reflects my commitment to innovation and creating meaningful digital experiences.
